@@ -385,7 +385,6 @@ button {
     font-size: 30px;
     color: #f76d37;
     font-weight: bold;
-    text-transform: uppercase;
 }
 
 .about_text {
@@ -703,31 +702,18 @@ a:hover {
     width: 100%;
     height: 600px;
     float: left;
-    padding-top: 180px;
     position: relative;
+    padding-top: 250px;
 }
 
-.testimonial_section_2::after {
-    content: '';
-    position: absolute;
-    width: 100px;
-    height: 150px;
-    border-top: 3px solid #252525;
-    border-left: 3px solid #252525;
-    left: 0px;
-    right: initial;
+.testimonial_section_3 {
+    width: 100%;
+    height: 600px;
+    float: left;
+    position: relative;
+    padding-top: 0px;
 }
 
-.testimonial_section_2::before {
-    content: '';
-    position: absolute;
-    width: 100px;
-    height: 150px;
-    border-bottom: 3px solid #252525;
-    border-right: 3px solid #252525;
-    left: initial;
-    right: 0px;
-}
 
 .client_name_text {
     width: 100%;
@@ -744,10 +730,19 @@ a:hover {
     padding-left: 30px;
 }
 
-.customer_text {
+.banner_text {
     width: 100%;
     float: left;
     text-align: center;
+    font-size: 50px;
+    color: #252525;
+    margin: 0px;
+}
+
+.customer_text {
+    width: 100%;
+    float: left;
+    text-align: justify;
     font-size: 25px;
     color: #252525;
     margin: 0px;
