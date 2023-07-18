@@ -140,6 +140,9 @@
     .banner_section {
         background-size: 100%;
     }
+    .banner_text {
+        font-size: 40px;
+    }
     .testimonial_section_2 {
         padding-top: 200px;
         height: 400px;
@@ -181,6 +184,9 @@
     }
     .banner_section {
         background-size: 100%;
+    }
+    .banner_text {
+        font-size: 30px;
     }
     .outstanding_text {
         font-size: 50px;
@@ -274,6 +280,9 @@
     .banner_section {
         background-size: 100%;
     }
+    .banner_text {
+        font-size: 20px;
+    }
     .outstanding_text {
         font-size: 30px;
     }
@@ -360,6 +369,9 @@
     }
     .banner_section {
         background-size: 100%;
+    }
+    .banner_text {
+        font-size: 20px;
     }
     .outstanding_text {
         font-size: 30px;
