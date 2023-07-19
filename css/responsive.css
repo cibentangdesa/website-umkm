@@ -129,10 +129,10 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     #main_slider a.carousel-control-prev {
-        top: 95%;
+        left: -75px;
     }
     #main_slider a.carousel-control-next {
-        top: 95%;
+        right: -75px;
     }
     .banner_taital {
         padding: 20px 0px;
@@ -164,10 +164,10 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
     #main_slider a.carousel-control-prev {
-        top: 90%;
+        left: -75px;
     }
     #main_slider a.carousel-control-next {
-        top: 90%;
+        right: -50px;
     }
     .navbar {
         padding: 20px 0px;
@@ -259,10 +259,10 @@
 
 @media (min-width: 576px) and (max-width: 767px) {
     #main_slider a.carousel-control-prev {
-        top: 90%;
+        left: -75px;
     }
     #main_slider a.carousel-control-next {
-        top: 90%;
+        right: -75px;
     }
     .navbar {
         padding: 20px 0px;
@@ -349,10 +349,14 @@
 
 @media (max-width: 575px) {
     #main_slider a.carousel-control-prev {
-        top: 90%;
+        height: 0px;
+        width: 0px;
+        left: 0px;
     }
     #main_slider a.carousel-control-next {
-        top: 90%;
+        height: 0px;
+        width: 0px;
+        right: 0px;
     }
     .navbar {
         padding: 20px 0px;

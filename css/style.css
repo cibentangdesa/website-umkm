@@ -330,29 +330,24 @@ button {
     color: #fff;
 }
 
-#main_slider a.carousel-control-next {
-    left: 0px;
-    right: -60px;
-    top: 440px;
+#main_slider a.carousel-control-prev {
+    left: -100px;
 }
 
-#main_slider a.carousel-control-prev {
-    left: -60px;
-    right: 0px;
-    top: 440px;
+#main_slider a.carousel-control-next {
+    right: -100px;
 }
 
 #main_slider .carousel-control-next,
 #main_slider .carousel-control-prev {
-    width: 45px;
-    height: 45px;
+    width: 60px;
+    height: 60px;
     background: #fff;
     opacity: 1;
     font-size: 30px;
     color: #333333;
-    margin: 0 auto;
     z-index: 1;
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
 }
 
