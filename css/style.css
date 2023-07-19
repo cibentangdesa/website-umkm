@@ -403,7 +403,7 @@ button {
 .read_bt {
     width: 175px;
     float: left;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .read_bt a {
@@ -738,7 +738,7 @@ a:hover {
     width: 100%;
     float: left;
     text-align: justify;
-    font-size: 25px;
+    font-size: 20px;
     color: #252525;
     margin: 0px;
 }
