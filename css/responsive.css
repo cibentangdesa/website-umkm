@@ -144,15 +144,17 @@
         font-size: 40px;
     }
     .testimonial_section_2 {
-        padding-top: 200px;
-        height: 400px;
+        height: 300px;
     }
     .testimonial_section_3 {
         padding-top: 0px;
         height: 400px;
     }
     .about_taital_main {
-        padding: 60px 0px;
+        padding: 0px;
+    }
+    .about_text {
+        font-size: 14px;
     }
     .mail_section {
         padding: 23px 20px;
@@ -202,7 +204,7 @@
         padding: 31px 0px;
     }
     .about_text {
-        font-size: 14px;
+        font-size: 18px;
     }
     .about_img {
         margin-top: 30px;
@@ -235,8 +237,7 @@
         padding-top: 0;
     }
     .testimonial_section_2 {
-        padding-top: 140px;
-        height: 380px;
+        height: 250px;
     }
     .testimonial_section_3 {
         padding-top: 0px;
@@ -296,8 +297,11 @@
     .about_taital_main {
         padding: 0px;
     }
+    .about_taital {
+        margin-top: 20px;
+    }
     .about_text {
-        font-size: 14px;
+        font-size: 18px;
     }
     .about_img {
         margin-top: 30px;
@@ -324,8 +328,7 @@
         padding-top: 0;
     }
     .testimonial_section_2 {
-        padding-top: 100px;
-        height: 280px;
+        height: 200px;
     }
     .testimonial_section_3 {
         padding-top: 0px;
@@ -375,7 +378,7 @@
         background-size: 100%;
     }
     .banner_text {
-        font-size: 18px;
+        font-size: 16px;
     }
     .outstanding_text {
         font-size: 30px;
@@ -391,7 +394,7 @@
         padding: 0px;
     }
     .about_text {
-        font-size: 14px;
+        font-size: 16px;
     }
     .about_img {
         margin-top: 30px;
@@ -418,8 +421,7 @@
         padding-top: 0;
     }
     .testimonial_section_2 {
-        padding-top: 60px;
-        height: 200px;
+        height: 100px;
     }
     .testimonial_section_3 {
         padding-top: 0px;
