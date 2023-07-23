@@ -371,11 +371,16 @@ $(function () {
 
 	/* Carousel Swipe Gesture
      -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
-	$(".carousel").swipe({
-		swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
-			if (direction == "left") $(this).carousel('next');
-			if (direction == "right") $(this).carousel('prev');
-		},
-		allowPageScroll:"vertical"
-	});
+	$(document).ready(function () {
+		$(".carousel").carousel();
+	  
+		$(".carousel").swipe({
+		  swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
+			if (direction == "left") $(".carousel").carousel('next');
+			if (direction == "right") $(".carousel").carousel('prev');
+		  },
+		  allowPageScroll: "vertical"
+		});
+	  });
+	  
 });
