@@ -1024,3 +1024,82 @@ a:hover {
 .margin_top90 {
     margin-top: 90px;
 }
+
+/* animation */
+.zoom-in-up-down-animation {
+    animation: zoomIn 5s, up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+.up-down-animation {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    animation-delay: 2s;
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(15px);
+    }
+    100% {
+        transform: translateY(-15px);
+    }
+}
+
+.zoom-in-animation {
+    animation: zoomIn 2s;
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.fade-in-left-animation {
+    opacity: 0;
+    animation: fadeInLeft 2s ease-in-out forwards;
+}
+
+@keyframes fadeInleft {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fade-in-right-animation {
+    opacity: 0;
+    animation: fadeInRight 2s ease-in-out forwards;
+}
+
+@keyframes fadeInRight {
+    0% {
+       opacity: 0;
+       transform: translateX(25px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ } 
+
+.fade-in-up-animation {
+    opacity: 0;
+    animation: fadeInUp 2s ease-in-out forwards;
+}
+
+@keyframes fadeInUp {
+    0% {
+       opacity: 0;
+       transform: translateY(25px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+ }
+}
