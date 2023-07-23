@@ -49,7 +49,7 @@
     <div class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="logo">
+          <div class="logo fade-in-left-animation">
             <a href="index.html"><img src="images/logo.png" /></a>
           </div>
           <button
@@ -66,19 +66,19 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link fade-in-right-animation" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#profile_section">Profil</a>
+                <a class="nav-link fade-in-right-animation" href="#profile_section">Profil</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#gallery_section">Galeri UMKM</a>
+                <a class="nav-link fade-in-right-animation" href="#gallery_section">Galeri UMKM</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#umkm_section">Daftar UMKM</a>
+                <a class="nav-link fade-in-right-animation" href="#umkm_section">Daftar UMKM</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact_section">Kontak Kami</a>
+                <a class="nav-link fade-in-right-animation" href="#contact_section">Kontak Kami</a>
               </li>
             </ul>
           </div>
@@ -92,7 +92,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="testimonial_section_2">
-              <p class="banner_text">
+              <p class="banner_text zoom-in-up-down-animation">
                 " Bentangkan potensi UMKM Desa Cibentang. "
               </p>
             </div>
@@ -106,22 +106,22 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <h1 id="profile_section" class="gallery_taital">Profil</h1>
+            <h1 id="profile_section" class="gallery_taital fade-in-up-animation">Profil</h1>
           </div>
           <div class="col-md-6">
-            <div class="about_img"><img src="images/profile-img.png" /></div>
+            <div class="about_img zoom-in-animation"><img src="images/profile-img.png" /></div>
           </div>
           <div class="col-md-6">
             <div class="about_taital_main">
-              <div class="about_taital">Deskripsi Umum</div>
-              <p class="about_text">
+              <div class="about_taital fade-in-up-animation">Deskripsi Umum</div>
+              <p class="about_text fade-in-up-animation">
                 Desa Cibentang merupakan salah satu desa yang terletak di
                 Kecamatan Ciseeng, Kabupaten Bogor, Jawa Barat. Secara
                 geografis, Desa Cibentang berbatasan dengan Desa Cihoe di
                 sebelah utara, Desa Cibeuteung Muara di sebelah selatan, Desa
                 Ciseeng di sebelah timur, dan Desa Kuripan di sebelah barat.
               </p>
-              <p class="about_text">
+              <p class="about_text fade-in-up-animation">
                 Desa yang terkenal dengan Masyarakatnya yang rukun dan kompak
                 ini memiliki potensi yang luar biasa dari sisi pengembangan
                 usaha masyarakat. Hal ini dapat dilihat dari UMKM yang ada di
@@ -143,11 +143,11 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <h1 id="gallery_section" class="gallery_taital">Galeri UMKM</h1>
+            <h1 id="gallery_taital" class="gallery_taital">Galeri UMKM</h1>
           </div>
         </div>
         <div class="row">
-          <div class="gallery_section_2">
+          <div id="gallery_section_1" class="gallery_section_2">
             <div class="row">
               <div class="col-md-4">
                 <div class="container_main">
@@ -166,7 +166,7 @@
               </div>
             </div>
           </div>
-          <div class="gallery_section_2">
+          <div id="gallery_section_2" class="gallery_section_2">
             <div class="row">
               <div class="col-md-4">
                 <div class="container_main">
@@ -185,7 +185,7 @@
               </div>
             </div>
           </div>
-          <div class="gallery_section_2">
+          <div id="gallery_section_3" class="gallery_section_2">
             <div class="row">
               <div class="col-md-4">
                 <div class="container_main">
@@ -355,7 +355,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-6 padding_20">
-            <div class="map-responsive">
+            <div id="map" class="map-responsive">
               <iframe
                 src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Desa+Cibentang+Kecamatan+Ciseeng+Kabupaten+Bogor+Jawa+Barat+Indonesia"
                 width="600"
@@ -367,7 +367,7 @@
             </div>
           </div>
           <div class="col-md-6 padding_20">
-            <div class="mail_section">
+            <div id="form" class="mail_section">
               <div class="email_text">
                 <form action="https://formspree.io/f/mrgwgwno" method="POST">
                   <div class="form-group">
@@ -535,5 +535,6 @@
     <!-- Sertakan library jquery.touchSwipe.min.js -->
     <script src="js/jquery.touchSwipe.min.js"></script>
     <script src="js/custom.js"></script>
+    <script src="js/scroll_animate.js"></script>
   </body>
 </html>
