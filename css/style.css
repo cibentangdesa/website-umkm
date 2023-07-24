@@ -270,7 +270,7 @@ button {
     float: left;
     background-image: url(../images/banner-bg.jpg);
     height: auto;
-    background-size: 100%;
+    background-size: cover;
     padding: 10px 0px 25px 0px;
     background-repeat: no-repeat;
 }
@@ -1029,7 +1029,7 @@ a:hover {
 #back-to-top {
     position: fixed;
     bottom: 3%;
-    right: 1%;
+    right: 2%;
     z-index: 2000;
     background: transparent;
 }

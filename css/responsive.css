@@ -137,9 +137,6 @@
     .banner_taital {
         padding: 20px 0px;
     }
-    .banner_section {
-        background-size: 100%;
-    }
     .banner_text {
         font-size: 40px;
     }
@@ -183,9 +180,6 @@
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         text-align: center;
-    }
-    .banner_section {
-        background-size: 120%;
     }
     .banner_text {
         font-size: 30px;
@@ -278,9 +272,6 @@
     .navbar-expand-lg .navbar-nav .nav-link {
         text-align: center;
     }
-    .banner_section {
-        background-size: 100%;
-    }
     .banner_text {
         font-size: 20px;
     }
@@ -361,6 +352,9 @@
         width: 0px;
         right: 0px;
     }
+    #back-to-top {
+        right: 5%;
+    }
     .navbar {
         padding: 20px 0px;
     }
@@ -373,9 +367,6 @@
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         text-align: center;
-    }
-    .banner_section {
-        background-size: 150%;
     }
     .banner_text {
         font-size: 16px;
