@@ -139,7 +139,9 @@ $(function () {
         scroll = $(window).scrollTop();
         if (scroll < 100){
           $("#back-to-top").addClass('d-none')
+		  $("#back-to-top").removeClass('fade-in-up-animation')
         }else{
+		  $("#back-to-top").addClass('fade-in-up-animation')
           $("#back-to-top").removeClass('d-none')
         }
       });

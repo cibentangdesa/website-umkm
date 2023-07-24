@@ -395,11 +395,21 @@ button {
 .about_text {
     width: 100%;
     float: left;
-    font-size: 18px;
-    color: #4c4c4b;
+    font-size: 20px;
+    color: #000000;
     margin: 0px;
     padding-top: 20px;
     text-align: justify;
+}
+
+.about_text_title {
+    width: 100%;
+    float: left;
+    font-size: 30px;
+    color: #000000;
+    margin: 0px;
+    padding-top: 20px;
+    text-align: justify;   
 }
 
 .centered_list {
@@ -1046,7 +1056,6 @@ a:hover {
 
 .up-down-animation {
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
-    animation-delay: 2s;
 }
 
 @keyframes up-down {
@@ -1055,6 +1064,19 @@ a:hover {
     }
     100% {
         transform: translateY(-15px);
+    }
+}
+
+.left-right-animation {
+    animation: rightLeft 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes rightLeft {
+    0% {
+        transform: translateX(15px);
+    }
+    100% {
+        transform: translateX(-15px);
     }
 }
 
