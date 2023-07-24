@@ -318,6 +318,10 @@
     .gallery_section_2 {
         padding-top: 0;
     }
+    .gallery_taital_title {
+        font-size: 60px;
+        margin-bottom: 0px;
+    }
     .testimonial_section_2 {
         height: 200px;
     }
@@ -392,6 +396,10 @@
     }
     .gallery_text {
         font-size: 14px;
+    }
+    .gallery_taital_title {
+        font-size: 45px;
+        margin-bottom: 0px;
     }
     .box_main {
         margin-top: 20px;
