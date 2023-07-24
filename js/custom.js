@@ -137,16 +137,16 @@ $(function () {
 	
 	$(window).on('scroll', function (){
         scroll = $(window).scrollTop();
-        if (scroll >= 100){
-          $("#back-to-top").addClass('b-show_scrollBut')
+        if (scroll < 100){
+          $("#back-to-top").addClass('d-none')
         }else{
-          $("#back-to-top").removeClass('b-show_scrollBut')
+          $("#back-to-top").removeClass('d-none')
         }
       });
       $("#back-to-top").on("click", function(){
-        $('body,html').animate({
+        $('header_section,html').animate({
           scrollTop: 0
-        }, 1000);
+        }, 0);
     });
 	
 	/* Contact-form
@@ -383,4 +383,5 @@ $(function () {
 		});
 	  });
 	  
+	
 });
